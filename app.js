@@ -7,7 +7,9 @@ const cart = new Cart();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.json({ message: "Bienvenido SWE Best Practices 2024!" });
+  res.json({
+    message: "Gracias a todos por atender el SWE Best Practices 2024!",
+  });
 });
 
 const server = app.listen(port, () => {
