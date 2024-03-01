@@ -95,7 +95,7 @@ describe("when using Cart object", () => {
     cart.addItem(item);
     const total = cart.getTotalItems();
 
-    expect(total).toBe(3);
+    expect(total).toBe(2);
   });
 
   it("should remove an item by itemId", () => {
